@@ -1,2 +1,4 @@
-# flutterandtools
-Flutter docker image with firebase tools cli and sentry cli
+# Flutter Docker Image with some tools installed
+- Flutter
+- Firebase Tools
+- Sentry CLI
