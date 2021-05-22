@@ -16,7 +16,7 @@ RUN cd Android/sdk/tools/bin && ./sdkmanager "build-tools;29.0.2" "patcher;v4" "
 ENV PATH "$PATH:/home/Android/sdk/platform-tools"
 
 #Installing Flutter SDK
-RUN git clone git clone https://github.com/flutter/flutter.git -b stable
+RUN git clone https://github.com/flutter/flutter.git -b stable
 ENV PATH "$PATH:/home/flutter/bin"
 RUN flutter upgrade
 RUN flutter doctor
