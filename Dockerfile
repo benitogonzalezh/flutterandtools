@@ -1,5 +1,5 @@
 FROM ubuntu:20.10 as builder
-RUN apt update && apt install -y curl git unzip xz-utils zip libglu1-mesa openjdk-8-jdk wget
+RUN apt update && apt install -y curl git unzip xz-utils zip libglu1-mesa openjdk-8-jdk wget sudo
 # RUN useradd -ms /bin/bash mandalorian
 # USER mandalorian
 WORKDIR /home
