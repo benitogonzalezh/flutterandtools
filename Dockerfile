@@ -24,7 +24,7 @@ RUN cd Android/sdk/tools/bin && ./sdkmanager "build-tools;29.0.2" "patcher;v4" "
 ENV PATH "$PATH:/home/mandalorian/Android/sdk/platform-tools"
 
 #Installing Flutter SDK
-RUN git clone --branch 2.0.5 --depth=1 https://github.com/flutter/flutter
+RUN git clone --branch 2.2.3 --depth=1 https://github.com/flutter/flutter
 ENV PATH "$PATH:/home/mandalorian/flutter/bin"
 RUN flutter config  --no-analytics
 RUN flutter precache
